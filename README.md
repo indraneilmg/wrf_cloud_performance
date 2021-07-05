@@ -3,10 +3,15 @@
 Simple scripts to build, run WRF on OCI, AWS - x86, arm
 
 WRFV3.9.1.1
+
 netcdf-c v4.8.0
+
 netcdf-fortran v4.5.3
+
 mpich v3.4.2
+
 hdf5 v1.12.0
+
 
 ______________________________
 
@@ -19,6 +24,7 @@ For AWS-x86
 ./wrf_run.sh
 
 
+______________________________
 
 For AWS-arm
 
@@ -29,6 +35,7 @@ For AWS-arm
 ./wrf_run.sh
 
 
+______________________________
 
 For OCI-x86
 
@@ -39,6 +46,7 @@ For OCI-x86
 ./wrf_run.sh
 
 
+______________________________
 
 For OCI-arm
 
@@ -49,6 +57,7 @@ For OCI-arm
 ./wrf_run.sh
 
 
+______________________________
 
 
 edit the wrf_run file to change the <MPI_RANKS> and <OMP_NUM_THREADS> 
