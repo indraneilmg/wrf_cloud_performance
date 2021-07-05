@@ -10,8 +10,10 @@ For AWS-x86
 
 For AWS-arm
 
-./wrf_libs.sh aws 
+./wrf_libs.sh aws
+
 ./wrf_build.sh aws arm
+
 ./wrf_run.sh
 
 For OCI-x86
